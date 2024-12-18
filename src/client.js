@@ -1,4 +1,4 @@
-const WebSocket = require('ws');
+const WebSocket = require('websocket-driver');
 
 const misc = require('./miscRequests');
 const protocol = require('./protocol');
